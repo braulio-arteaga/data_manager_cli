@@ -3,7 +3,6 @@
 - **Curso**: Introducción a la Programación en Python y PyTorch
 - **Docente**: Jorge Guevara
 - **Integrante**: Braulio Arteaga
-- **Fecha**: Marzo 2026 
 ---
 
 ## 1. Descripción
