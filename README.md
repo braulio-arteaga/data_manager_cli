@@ -1,8 +1,6 @@
 # DataManager CLI — Análisis de Denuncias Policiales en Lima Metropolitana
 
-
 - **Curso**: Introducción a la Programación en Python y PyTorch
-- **Programa**: Pre-Maestría MSc. Ingeniería Estadística
 - **Docente**: Jorge Guevara
 - **Integrante**: Braulio Arteaga
 - **Fecha**: Marzo 2026 
