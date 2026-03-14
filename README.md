@@ -95,7 +95,6 @@ python main.py
 
 ```bash
 cd datamanager
-pip install pytest
 pytest tests/test_processor.py -v
 ```
 
