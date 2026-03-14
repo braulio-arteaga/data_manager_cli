@@ -1,18 +1,25 @@
 # DataManager CLI — Análisis de Denuncias Policiales en Lima Metropolitana
- 
-## Información del curso
- 
+
 
 - **Curso**: Introducción a la Programación en Python y PyTorch
+- **Programa**: Pre-Maestría MSc. Ingeniería Estadística
 - **Docente**: Jorge Guevara
 - **Integrante**: Braulio Arteaga
-- **Programa**: Pre-Maestría MSc. Ingeniería Estadística
 - **Fecha**: Marzo 2026 
 ---
 
 ## 1. Descripción
  
-Aplicación de línea de comandos (CLI) para el procesamiento y análisis descriptivo de denuncias policiales registradas en Lima Metropolitana durante el periodo 2021–2026, utilizando datos del Sistema Informático de Denuncias Policiales (SIDPOL) de la Policía Nacional del Perú. 
+Aplicación de línea de comandos (CLI) para el procesamiento y análisis descriptivo de denuncias policiales registradas en Lima Metropolitana durante el periodo 2021–2026, utilizando datos del [Sistema Informático de Denuncias Policiales (SIDPOL)](https://observatorio.mininter.gob.pe/proyectos/base-de-datos-hechos-delictivos-basados-en-denuncias-en-el-sidpol) de la Policía Nacional del Perú. 
+
+El proyecto, mediante una arquitectura funcional y reproducible, integra los módulos dictados en enl curso, lo cual incluye desde la gestión de archivos hasta la implementación de pruebas unitarias.
+
+
+<p align="center">
+  <img src="img/denuncia.jpg" width="600" alt="SIDPOL PNP">
+  <br>
+  <em>Procesamiento de denuncias del SIDPOL</em>
+</p>
 
 ## 2. Estructura del proyecto
 
@@ -88,10 +95,11 @@ python main.py
 
 ```bash
 cd datamanager
+pip install pytest
 pytest tests/test_processor.py -v
 ```
 
-**31 tests** cubriendo:
+**Los test** validan lo siguiente:
 - Filtros por modalidad, año, distrito y mínimo de denuncias
 - Ordenamiento ascendente/descendente y detección de campos inválidos
 - Estadísticas con lista vacía, valores normales y casos extremos
@@ -99,20 +107,8 @@ pytest tests/test_processor.py -v
 
 ---
 
-## 8. Módulos del curso integrados
 
-| Módulo | Aplicación |
-|--------|-----------|
-| M1 — Fundamentos | Funciones, f-strings, `main()` |
-| M2 — Control de flujo | `if/elif`, `for`, listas, diccionarios, `sorted()` con `key=` |
-| M3 — Manejo de errores | `try/except`, `FileNotFoundError`, `ValueError`, validación separada |
-| M4 — Librerías | `csv`, `json`, `os`, módulos propios |
-| M5 — Testing | `assert`, `pytest`, fixtures, casos extremos |
-| M6 — Archivos | `with open()`, lectura CSV, escritura JSON |
-
----
-
-## 9. Salida JSON de ejemplo
+## 8. Ejemplo de salida JSON 
 
 ```json
 {
