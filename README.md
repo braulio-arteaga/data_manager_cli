@@ -60,7 +60,7 @@ cd datamanager
 python main.py
 ```
 
-### 5. Menú principal
+### 4.1. Menú principal
 
 ```
 DataManager CLI — Denuncias Lima Metropolitana
@@ -76,7 +76,7 @@ Fuente: SIDPOL · Período: 2021–2026
   0 - Salir
 ```
 
-### 6. Ejemplo de uso
+### 4.2 Ejemplo de uso
 
 ```
 # Cargar el programa
@@ -91,7 +91,7 @@ python main.py
 
 ---
 
-## 7. Tests
+## 5. Tests
 
 ```bash
 cd datamanager
@@ -99,7 +99,7 @@ pip install pytest
 pytest tests/test_processor.py -v
 ```
 
-**Los test** validan lo siguiente:
+Los test realizan lo siguiente:
 - Filtros por modalidad, año, distrito y mínimo de denuncias
 - Ordenamiento ascendente/descendente y detección de campos inválidos
 - Estadísticas con lista vacía, valores normales y casos extremos
@@ -108,7 +108,7 @@ pytest tests/test_processor.py -v
 ---
 
 
-## 8. Ejemplo de salida JSON 
+## 6. Ejemplo de salida JSON 
 
 ```json
 {
