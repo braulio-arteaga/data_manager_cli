@@ -1,0 +1,30 @@
+{
+  "total_registros": 13710,
+  "total_denuncias": 1021243,
+  "promedio_denuncias": 74.49,
+  "max_denuncias": 1111,
+  "min_denuncias": 1,
+  "por_modalidad": {
+    "Estafa": 67145,
+    "Extorsión": 39293,
+    "Hurto": 380739,
+    "Otros": 295996,
+    "Robo": 234109,
+    "Homicidio": 3961
+  },
+  "por_anio": {
+    "2021": 134026,
+    "2022": 178964,
+    "2023": 250659,
+    "2024": 239447,
+    "2025": 203739,
+    "2026": 14408
+  },
+  "top5_distritos": {
+    "SAN JUAN DE LURIGANCHO": 105964,
+    "LIMA": 104284,
+    "SAN MARTIN DE PORRES": 54705,
+    "COMAS": 54192,
+    "ATE": 47639
+  }
+}
